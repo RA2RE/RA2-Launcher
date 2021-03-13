@@ -8,7 +8,7 @@
 * 
 * Credits: sneakyevil 
 * 
-* NOTE: This launcher is not completed since original launched contains patches handler for PATCHGET.DAT (But I think this is useless because this game doesn't get new patches)
+* NOTE: This launcher is not completed since original launcher contains patches handler for PATCHGET.DAT (But I think this is useless because this game doesn't get new patches)
 * 
 */
 
