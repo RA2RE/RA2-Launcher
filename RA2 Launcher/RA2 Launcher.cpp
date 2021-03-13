@@ -23,7 +23,7 @@ namespace Data
 
 void InitProtection()
 {
-    CreateMutexA(0, 0, "48BC11BD-C4D7-466b-8A31-C6ABBAD47B3E"); // Cool protection by Westwood
+    CreateMutexA(0, 0, "48BC11BD-C4D7-466b-8A31-C6ABBAD47B3E"); // Cool protection by Westwood (May diff from other versions)
     // We can ignore HANDLE output because game close it for us :)
 }
 
@@ -44,7 +44,7 @@ void InitGame()
 
 void NotifyGame()
 {
-    Data::hNotify = CreateEventA(0, 0, 0, "D6E7FC97-64F9-4d28-B52C-754EDF721C6F"); // Another cool protection by Westwood
+    Data::hNotify = CreateEventA(0, 0, 0, "D6E7FC97-64F9-4d28-B52C-754EDF721C6F"); // Another cool protection by Westwood (May diff from other versions)
 
     /*
     *
