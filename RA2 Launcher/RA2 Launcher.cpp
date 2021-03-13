@@ -45,13 +45,21 @@ void InitGame()
 void NotifyGame()
 {
     Data::hNotify = CreateEventA(0, 0, 0, "D6E7FC97-64F9-4d28-B52C-754EDF721C6F"); // Another cool protection by Westwood
+
+    /*
+    *
+    * Original code, again we don't use it.
+    * Reason: waiting 5 minute for no reason?
+    *
+    */
+    /*
     if (Data::hNotify && GetLastError() != ERROR_ALREADY_EXISTS)
     {
         if (WaitForMultipleObjects(2, &Data::hNotify, 0, 300000) == WAIT_OBJECT_0) // 5 Min Wait Limit
         {
             PostThreadMessageA(Data::pInfo.dwThreadId, 0xBEEF, 0, 0);// Our message is 0xBEEF (xDDDDDDDDDDDDD)
         }
-    }
+    }*/
 }
 
 void WaitForExit()
